@@ -8,7 +8,7 @@
 
 
 ## 🛠 Skills
-React, StoryBook, Radix, Figma
+React, TailwindCSS, StoryBook, Radix, Figma
 
 ## Executando lab-ds
 
