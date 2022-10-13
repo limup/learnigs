@@ -2,8 +2,8 @@
 
 ## Badges
 
-[![Commit](https://img.shields.io/github/commit-activity/y/limup/learnigs/lab-ds)](https://img.shields.io/github/commit-activity/y/limup/learnigs/lab-ds)
-[![Size](https://img.shields.io/github/repo-size/limup/learnigs/lab-ds)](https://img.shields.io/github/repo-size/limup/learnigs/lab-ds)
+[![Commit](https://img.shields.io/github/commit-activity/m/limup/learnigs)](https://img.shields.io/github/commit-activity/m/limup/learnigs)
+[![Size](https://img.shields.io/github/repo-size/limup/learnigs)](https://img.shields.io/github/repo-size/limup/learnigs)
 [![limup](https://img.shields.io/github/followers/limup?style=plastic)](https://img.shields.io/github/followers/limup?style=social)
 
 
