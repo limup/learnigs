@@ -19,14 +19,7 @@ jobs:
           node-version: 16
       
       - name: Install dependences
-        run: |
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
+        run: npm i --legacy-peer-deps --force
 
       - name: Build Storybook
         run: npm run build-storybook
