@@ -19,7 +19,7 @@ jobs:
           node-version: 16
       
       - name: Install dependences
-        run: npm ci --legacy-peer-deps
+        run: npm ci --legacy-peer-deps --force
 
       - name: Build Storybook
         run: npm run build-storybook
