@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Aspn_TempoVida.props" />
+</Project>

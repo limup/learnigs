@@ -1,7 +1,15 @@
+using Aspn_TempoVida.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Configurando o tipo de tempo de vida útil do projeto
+builder.Services.AddTransient<IOperationTransient, Operation>();
+builder.Services.AddScoped<IOperationScoped, Operation>();
+builder.Services.AddSingleton<IOperationSingleton, Operation>();
+
 
 var app = builder.Build();
 
