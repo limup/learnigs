@@ -1,0 +1,10 @@
+dotnet ef
+
+-Cria o script de migração
+dotnet ef migrations add 'nome'
+
+-Remove o script de migração criado
+dotnet ef migrations remove 'nome'
+
+-Gera o banco de dados e as tabelas com base no script
+dotnet ef database update
