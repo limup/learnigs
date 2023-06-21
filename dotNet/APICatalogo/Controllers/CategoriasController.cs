@@ -26,19 +26,35 @@ namespace APICatalogo.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Categoria>> Get()
         {
-            return _context.Categorias.AsNoTracking().ToList();
+            try
+            {
+                return _context.Categorias.AsNoTracking().ToList();
+            }
+            catch (System.Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao tratar a sua solicitação");
+                throw;
+            }
         }
 
         [HttpGet("{id:int}", Name = "ObterCategoria")]
         public ActionResult<Categoria> Get(int id)
         {
-            var categoria = _context.Categorias.FirstOrDefault(p => p.Id == id);
-            if (categoria is null)
+            try
             {
-                return NotFound("Categoria não encontrada...");
-            }
+                var categoria = _context.Categorias.FirstOrDefault(p => p.Id == id);
+                if (categoria is null)
+                {
+                    return NotFound("Categoria não encontrada...");
+                }
 
-            return categoria;
+                return categoria;
+            }
+            catch (System.Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao tratar a sua solicitação");
+                throw;
+            }
         }
 
         [HttpPost]
@@ -71,7 +87,7 @@ namespace APICatalogo.Controllers
             var categoria = _context.Categorias.FirstOrDefault(p => p.Id == id);
 
             if (categoria is null)
-                return NotFound("categoria não localizado...");
+                return NotFound($"categoria com id={id} não encontrada...");
 
             _context.Categorias.Remove(categoria);
             _context.SaveChanges();
