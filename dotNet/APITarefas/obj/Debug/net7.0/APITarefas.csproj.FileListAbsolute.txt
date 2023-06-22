@@ -31,3 +31,6 @@ C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotNet\
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotNet\APITarefas\obj\Debug\net7.0\APITarefas.pdb
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotNet\APITarefas\obj\Debug\net7.0\APITarefas.genruntimeconfig.cache
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotNet\APITarefas\obj\Debug\net7.0\ref\APITarefas.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotNet\APITarefas\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotNet\APITarefas\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotNet\APITarefas\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
