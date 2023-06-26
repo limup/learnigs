@@ -1,0 +1,32 @@
+{
+  "dotnet.defaultSolution": "APITarefasDapper.sln",
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "db_acb.mysql.dbaas.com.br",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "Authentic Credit Brazil",
+      "database": "db_acb",
+      "username": "db_acb",
+      "password": "Acb92903738!"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "driver": "MySQL",
+      "name": "MySQL",
+      "connectString": "\"Server=localhost;DataBase=TarefasDemoDb;Uid=root;Pwd=admin\"",
+      "database": "TarefasDemoDb",
+      "username": "root",
+      "password": "admin"
+    }
+  ]
+}
