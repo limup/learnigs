@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IPkGwdMvkyvSm755TVVSMIr5Af7YgI0TLrIpJ1dfB+IxiUHAaXr7m10PZ6voI8hBf7QYZ8RhtybPM0/SNOUUcg==",
+  "dgSpecHash": "by+tFwOzy/+h2fPwvbdrcMCXKuH6DakA6BQiKQcV+kqojcy3r+PQaTcXGcV21AH/3SzIvwnfUsAFRWv0WLQsjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APITarefas\\APITarefas.csproj",
+  "projectFilePath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APITarefas\\APITarefas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\limup\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
     "C:\\Users\\limup\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.7\\microsoft.entityframeworkcore.7.0.7.nupkg.sha512",
