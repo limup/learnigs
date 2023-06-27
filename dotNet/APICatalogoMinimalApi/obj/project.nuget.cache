@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6cJIwesSWtx3qtj7ISSxWGr2uWOwP1jZ715AA7f5ZU7e0wWZqbANqbznYnPu2pkPUe4mqpsAIeGdJrEpHvyP8Q==",
+  "dgSpecHash": "gKpcEkfJfxE5BOsx/wb3XC+OIudkNEHyaqCRHa8eXgLmWqShyGB36CJA2Y0vb7TRWWuyKmQ349wnRNpFUZYjNQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\APICatalogoMinimalApi.csproj",
+  "projectFilePath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\APICatalogoMinimalApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\limup\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\limup\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",

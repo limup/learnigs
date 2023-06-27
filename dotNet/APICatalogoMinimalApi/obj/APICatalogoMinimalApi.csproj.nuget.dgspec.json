@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\APICatalogoMinimalApi.csproj": {}
+    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\APICatalogoMinimalApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\APICatalogoMinimalApi.csproj": {
+    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\APICatalogoMinimalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\APICatalogoMinimalApi.csproj",
+        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\APICatalogoMinimalApi.csproj",
         "projectName": "APICatalogoMinimalApi",
-        "projectPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\APICatalogoMinimalApi.csproj",
+        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\APICatalogoMinimalApi.csproj",
         "packagesPath": "C:\\Users\\limup\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\obj\\",
+        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotNet\\APICatalogoMinimalApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\limup\\AppData\\Roaming\\NuGet\\NuGet.Config",
