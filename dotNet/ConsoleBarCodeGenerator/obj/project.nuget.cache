@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "3DdHpLbut/myChNNqz5JcqTxMUAclEBZrHLLv78olF6arfGTEh3bSYS9qxNh7gJBm9qIABLQqj+pbzbvXLoLsg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleBarCodeGenerator\\ConsoleBarCodeGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\limup\\.nuget\\packages\\barcodelib\\3.0.0\\barcodelib.3.0.0.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\skiasharp\\2.88.3\\skiasharp.2.88.3.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.3\\skiasharp.nativeassets.macos.2.88.3.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.3\\skiasharp.nativeassets.win32.2.88.3.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\system.resources.extensions\\7.0.0\\system.resources.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\limup\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
