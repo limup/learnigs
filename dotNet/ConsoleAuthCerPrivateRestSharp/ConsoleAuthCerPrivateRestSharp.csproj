@@ -7,9 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="ZXing.Net" Version="0.16.9" />
-    <PackageReference Include="ZXing.Net.Bindings.SkiaSharp" Version="0.16.13" />
-  </ItemGroup>
-
 </Project>

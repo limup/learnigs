@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ZXing.Net" Version="0.16.9" />
-    <PackageReference Include="ZXing.Net.Bindings.SkiaSharp" Version="0.16.13" />
+    <PackageReference Include="BouncyCastle" Version="1.8.9" />
+    <PackageReference Include="IdentityModel" Version="6.1.0" />
   </ItemGroup>
 
 </Project>

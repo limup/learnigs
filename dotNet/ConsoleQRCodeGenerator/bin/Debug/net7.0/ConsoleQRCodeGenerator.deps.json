@@ -8,26 +8,11 @@
     ".NETCoreApp,Version=v7.0": {
       "ConsoleQRCodeGenerator/1.0.0": {
         "dependencies": {
-          "BarcodeLib": "3.0.0",
-          "SkiaSharp.QrCode": "0.6.0",
           "ZXing.Net": "0.16.9",
           "ZXing.Net.Bindings.SkiaSharp": "0.16.13"
         },
         "runtime": {
           "ConsoleQRCodeGenerator.dll": {}
-        }
-      },
-      "BarcodeLib/3.0.0": {
-        "dependencies": {
-          "SkiaSharp": "2.88.3",
-          "System.Resources.Extensions": "7.0.0",
-          "System.Text.Json": "7.0.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/BarcodeStandard.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
-          }
         }
       },
       "SkiaSharp/2.88.3": {
@@ -70,31 +55,6 @@
           }
         }
       },
-      "SkiaSharp.QrCode/0.6.0": {
-        "dependencies": {
-          "SkiaSharp": "2.88.3"
-        },
-        "runtime": {
-          "lib/netstandard2.1/SkiaSharp.QrCode.dll": {
-            "assemblyVersion": "0.6.0.0",
-            "fileVersion": "0.6.0.0"
-          }
-        }
-      },
-      "System.Resources.Extensions/7.0.0": {
-        "runtime": {
-          "lib/net7.0/System.Resources.Extensions.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        }
-      },
-      "System.Text.Encodings.Web/7.0.0": {},
-      "System.Text.Json/7.0.2": {
-        "dependencies": {
-          "System.Text.Encodings.Web": "7.0.0"
-        }
-      },
       "ZXing.Net/0.16.9": {
         "runtime": {
           "lib/net7.0/zxing.dll": {
@@ -123,13 +83,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BarcodeLib/3.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jrbykGcOjqRXHiiKvZDANHck1alqEdKDzajj5xpxD8XAvzYTen2c23QrVkiei1MCTHkNnBcHigdK5IinN3L5PA==",
-      "path": "barcodelib/3.0.0",
-      "hashPath": "barcodelib.3.0.0.nupkg.sha512"
-    },
     "SkiaSharp/2.88.3": {
       "type": "package",
       "serviceable": true,
@@ -150,34 +103,6 @@
       "sha512": "sha512-MU4ASL8VAbTv5vSw1PoiWjjjpjtGhWtFYuJnrN4sNHFCePb2ohQij9JhSdqLLxk7RpRtWPdV93fbA53Pt+J0yw==",
       "path": "skiasharp.nativeassets.win32/2.88.3",
       "hashPath": "skiasharp.nativeassets.win32.2.88.3.nupkg.sha512"
-    },
-    "SkiaSharp.QrCode/0.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YqYqaODGADaMNrxzyYarYWDi/zeNAYpnfiuTLWU0/86C0sWUx6dqedFxEjjIRAouRzt7Xgf1FCgZuI1KT07D1A==",
-      "path": "skiasharp.qrcode/0.6.0",
-      "hashPath": "skiasharp.qrcode.0.6.0.nupkg.sha512"
-    },
-    "System.Resources.Extensions/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-65ufm9ABXvxRkQ//hMcUDrQXbGWkC7z0WWZAvHlQ6Qv+JmrIwHH1lmX8aXlNlXpIrT9KxDpuZPqJTVqqwzMD8Q==",
-      "path": "system.resources.extensions/7.0.0",
-      "hashPath": "system.resources.extensions.7.0.0.nupkg.sha512"
-    },
-    "System.Text.Encodings.Web/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
-      "path": "system.text.encodings.web/7.0.0",
-      "hashPath": "system.text.encodings.web.7.0.0.nupkg.sha512"
-    },
-    "System.Text.Json/7.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/LZf/JrGyilojqwpaywb+sSz8Tew7ij4K/Sk+UW8AKfAK7KRhR6mKpKtTm06cYA7bCpGTWfYksIW+mVsdxPegQ==",
-      "path": "system.text.json/7.0.2",
-      "hashPath": "system.text.json.7.0.2.nupkg.sha512"
     },
     "ZXing.Net/0.16.9": {
       "type": "package",

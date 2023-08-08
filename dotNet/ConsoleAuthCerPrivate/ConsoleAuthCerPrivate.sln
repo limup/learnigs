@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAuthCerPrivate", "ConsoleAuthCerPrivate.csproj", "{E79E979D-9009-48C4-B5E2-21060519E450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E79E979D-9009-48C4-B5E2-21060519E450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79E979D-9009-48C4-B5E2-21060519E450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79E979D-9009-48C4-B5E2-21060519E450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79E979D-9009-48C4-B5E2-21060519E450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9AB47E6-219B-4626-B748-EAA7CE2B1052}
+	EndGlobalSection
+EndGlobal

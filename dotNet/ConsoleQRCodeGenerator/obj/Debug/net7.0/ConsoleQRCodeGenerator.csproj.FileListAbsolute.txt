@@ -20,7 +20,4 @@ C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleQRCodeGenerator\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleQRCodeGenerator\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleQRCodeGenerator\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
-C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleQRCodeGenerator\bin\Debug\net7.0\BarcodeStandard.dll
-C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleQRCodeGenerator\bin\Debug\net7.0\System.Resources.Extensions.dll
-C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleQRCodeGenerator\bin\Debug\net7.0\SkiaSharp.QrCode.dll
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleQRCodeGenerator\bin\Debug\net7.0\ZXing.SkiaSharp.dll

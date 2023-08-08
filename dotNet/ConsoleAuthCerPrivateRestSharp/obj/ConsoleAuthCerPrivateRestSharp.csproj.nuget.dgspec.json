@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleQRCodeGenerator\\ConsoleQRCodeGenerator.csproj": {}
+    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivateRestSharp\\ConsoleAuthCerPrivateRestSharp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleQRCodeGenerator\\ConsoleQRCodeGenerator.csproj": {
+    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivateRestSharp\\ConsoleAuthCerPrivateRestSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleQRCodeGenerator\\ConsoleQRCodeGenerator.csproj",
-        "projectName": "ConsoleQRCodeGenerator",
-        "projectPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleQRCodeGenerator\\ConsoleQRCodeGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivateRestSharp\\ConsoleAuthCerPrivateRestSharp.csproj",
+        "projectName": "ConsoleAuthCerPrivateRestSharp",
+        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivateRestSharp\\ConsoleAuthCerPrivateRestSharp.csproj",
         "packagesPath": "C:\\Users\\limup\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleQRCodeGenerator\\obj\\",
+        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivateRestSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\limup\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,16 +39,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "ZXing.Net": {
-              "target": "Package",
-              "version": "[0.16.9, )"
-            },
-            "ZXing.Net.Bindings.SkiaSharp": {
-              "target": "Package",
-              "version": "[0.16.13, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

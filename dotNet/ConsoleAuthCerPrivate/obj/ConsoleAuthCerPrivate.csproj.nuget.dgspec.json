@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleQRCodeGenerator\\ConsoleQRCodeGenerator.csproj": {}
+    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj": {}
   },
   "projects": {
-    "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleQRCodeGenerator\\ConsoleQRCodeGenerator.csproj": {
+    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleQRCodeGenerator\\ConsoleQRCodeGenerator.csproj",
-        "projectName": "ConsoleQRCodeGenerator",
-        "projectPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleQRCodeGenerator\\ConsoleQRCodeGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj",
+        "projectName": "ConsoleAuthCerPrivate",
+        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj",
         "packagesPath": "C:\\Users\\limup\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleQRCodeGenerator\\obj\\",
+        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\limup\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "ZXing.Net": {
+            "BouncyCastle": {
               "target": "Package",
-              "version": "[0.16.9, )"
+              "version": "[1.8.9, )"
             },
-            "ZXing.Net.Bindings.SkiaSharp": {
+            "IdentityModel": {
               "target": "Package",
-              "version": "[0.16.13, )"
+              "version": "[6.1.0, )"
             }
           },
           "imports": [

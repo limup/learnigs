@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = ConsoleQRCodeGenerator
-build_property.ProjectDir = c:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleQRCodeGenerator\
+build_property.RootNamespace = ConsoleAuthCerPrivate
+build_property.ProjectDir = C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleAuthCerPrivate\
