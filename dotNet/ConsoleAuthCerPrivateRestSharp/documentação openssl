@@ -1,0 +1,30 @@
+Validar versão
+openssl version
+
+Gerar chave privada
+Comando:
+openssl req -new -subj "/UID={{APP_Client_ID}}/DC={{domainComponent_environment}}/CN={{commonName}}/O={{organizationName_CNPJ-CPF}}/OU={{organizationalUnitName_AG-CC}}/L={{localityName}}/ST={{stateOrProvinceName}}/C={{countryName}}" -out REQUEST_CERTIFICADO.csr -nodes -sha512 -newkey rsa:4096 -keyout PRIVATE_KEY.key
+
+UID = Client ID da APP criada no Dev. Portal;
+DC = Ambiente que a APP foi criada e o certificado será utilizado (“Sandbox” ou “Producao”);
+CN = Nome do proprietário da CC e CPF/CNPJ que será utilizado o certificado;
+O = Número do CPF ou CNPJ do titular da CC que será acessada pelo certificado;
+OU = Número da Agência “-” Número da Conta Corrente que será acessada pelo certificado;
+L = Nome da cidade de nascimento/registro do CPF/CNPJ (sem acentuação);
+ST = Sigla do estado (UF), da cidade informada;
+C = Sigla do país, do estado informado.
+
+Exemplo do comando:
+openssl req -new -subj "/UID=4071f8df-e356-4dfd-8711-2e289cf963f9/DC=Sandbox/CN=Parceiro LTDA/O=22959214000122/OU=0001-12345678/L=Campinas/ST=SP/C=BR" -out REQUEST_CERTIFICADO.csr -nodes -sha512 -newkey rsa:4096 -keyout PRIVATE_KEY.key
+Exemplo de retorno:
+
+Generating a RSA private key
+.....................................................++++
+.......++++
+writing new private key to 'PRIVATE_KEY.key'
+-----
+
+
+Para gerar o arquivo .pfx a partir do certificado .cer e a chave privada .key
+openssl pkcs12 -export -out certificado.pfx -inkey PRIVATE_KEY.key -in "REQUEST_CERTIFICADO (1).cer" -nodes
+
