@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj": {}
+    "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj": {
+    "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj",
+        "projectUniqueName": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj",
         "projectName": "ConsoleAuthCerPrivate",
-        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj",
+        "projectPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj",
         "packagesPath": "C:\\Users\\limup\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\obj\\",
+        "outputPath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\limup\\AppData\\Roaming\\NuGet\\NuGet.Config",

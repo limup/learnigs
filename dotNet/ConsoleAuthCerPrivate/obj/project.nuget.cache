@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3HlD7HzfrqEay0pWHm6c3D0YTKdE1qOmJZ/yVEV4rMdSzWCOOHn8amuDp4kYZ+warDZB+TWFYEvpqGkS8J01HQ==",
+  "dgSpecHash": "sr6FVVAMe56fv7llxlyflC5H9tDlqFXVqUE0NJg9UgIv4FXcQgZMJ+sh+qWBID2uY2aOt/LhtClTP8Mxr4ZJ1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj",
+  "projectFilePath": "c:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleAuthCerPrivate\\ConsoleAuthCerPrivate.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\limup\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\limup\\.nuget\\packages\\identitymodel\\6.1.0\\identitymodel.6.1.0.nupkg.sha512"

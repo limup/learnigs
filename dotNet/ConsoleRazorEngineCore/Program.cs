@@ -3,3 +3,4 @@ using ConsoleRazorEngineCore;
 
 Simple.Execute();
 UseCshtml.Execute();
+UseCshtmlLoop.Execute();

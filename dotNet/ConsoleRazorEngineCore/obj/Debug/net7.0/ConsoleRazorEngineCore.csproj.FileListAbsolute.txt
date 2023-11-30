@@ -45,3 +45,5 @@ C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleRazorEngineCore\obj\Debug\net7.0\ConsoleRazorEngineCore.genruntimeconfig.cache
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleRazorEngineCore\obj\Debug\net7.0\ref\ConsoleRazorEngineCore.dll
 C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleRazorEngineCore\bin\Debug\net7.0\View\Index.cshtml
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleRazorEngineCore\bin\Debug\net7.0\View\loop.cshtml
+C:\Users\limup\OneDrive\4- Projetos\7- Tutoriais e Aprendizados\learnigs\dotnet\ConsoleRazorEngineCore\bin\Debug\net7.0\View\Servicos.cshtml

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleRazorEngineCore\\ConsoleRazorEngineCore.csproj": {}
+    "C:\\Users\\limup\\OneDrive\\4- Clientes\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleRazorEngineCore\\ConsoleRazorEngineCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleRazorEngineCore\\ConsoleRazorEngineCore.csproj": {
+    "C:\\Users\\limup\\OneDrive\\4- Clientes\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleRazorEngineCore\\ConsoleRazorEngineCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleRazorEngineCore\\ConsoleRazorEngineCore.csproj",
+        "projectUniqueName": "C:\\Users\\limup\\OneDrive\\4- Clientes\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleRazorEngineCore\\ConsoleRazorEngineCore.csproj",
         "projectName": "ConsoleRazorEngineCore",
-        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleRazorEngineCore\\ConsoleRazorEngineCore.csproj",
+        "projectPath": "C:\\Users\\limup\\OneDrive\\4- Clientes\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleRazorEngineCore\\ConsoleRazorEngineCore.csproj",
         "packagesPath": "C:\\Users\\limup\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Projetos\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleRazorEngineCore\\obj\\",
+        "outputPath": "C:\\Users\\limup\\OneDrive\\4- Clientes\\7- Tutoriais e Aprendizados\\learnigs\\dotnet\\ConsoleRazorEngineCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\limup\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "RazorEngineCore": {
               "target": "Package",
               "version": "[2022.8.1, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
