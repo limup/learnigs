@@ -8,14 +8,10 @@ import { Database } from './database/database.js'
 // Usando o Postman para enviar requisição
 // https://cloudy-crater-299185.postman.co/workspace/Limup~637aed2c-6982-47e6-837a-e4fdf3427139/folder/3378870-0c52921d-6050-4baa-8337-3a3ec9e717bf
 
-const users = []
 const database = new Database()
 
 const server = http.createServer(async (req, res) => {
     const { method, url } = req
-
-    console.log(method, url)
-    console.log(req.headers)
 
     await json(req, res)
 
