@@ -1,0 +1,330 @@
+{
+	"info": {
+		"_postman_id": "fd0a7f76-8854-4188-8bde-cbf3f4f1005e",
+		"name": "Ignite",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3378870"
+	},
+	"item": [
+		{
+			"name": "nodejs",
+			"item": [
+				{
+					"name": "aulas",
+					"item": [
+						{
+							"name": "01-fundamentos-nodejs",
+							"item": [
+								{
+									"name": "user",
+									"item": [
+										{
+											"name": "create",
+											"request": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"name\": \"Teste Junior\",\r\n    \"email\": \"juniorvla_350@hotmail.com\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "localhost:3333/users",
+													"host": [
+														"localhost"
+													],
+													"port": "3333",
+													"path": [
+														"users"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "list",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "localhost:3333/users",
+													"host": [
+														"localhost"
+													],
+													"port": "3333",
+													"path": [
+														"users"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "list query",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "localhost:3333/users?search=teste",
+													"host": [
+														"localhost"
+													],
+													"port": "3333",
+													"path": [
+														"users"
+													],
+													"query": [
+														{
+															"key": "search",
+															"value": "teste"
+														}
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete",
+											"request": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "localhost:3333/users/:id",
+													"host": [
+														"localhost"
+													],
+													"port": "3333",
+													"path": [
+														"users",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "bfeef96d-56a3-4f44-bc2b-11733b8bef05"
+														}
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Atualizar",
+											"request": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"name\": \"John DOe\",\r\n    \"email\": \"johndoe@hotmail.com\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "localhost:3333/users/:id",
+													"host": [
+														"localhost"
+													],
+													"port": "3333",
+													"path": [
+														"users",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "245a7d70-9621-4537-98d1-bea28a88ec20"
+														}
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "tasks",
+									"item": [
+										{
+											"name": "create",
+											"request": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"title\": \"teste\",\r\n    \"description\": \"juniorvla_350@hotmail.com\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "localhost:3333/tasks",
+													"host": [
+														"localhost"
+													],
+													"port": "3333",
+													"path": [
+														"tasks"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "create massive csv",
+											"request": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "formdata",
+													"formdata": [
+														{
+															"key": "file",
+															"type": "file",
+															"src": "import-massive.csv"
+														}
+													]
+												},
+												"url": {
+													"raw": "localhost:3333/tasks/uploads",
+													"host": [
+														"localhost"
+													],
+													"port": "3333",
+													"path": [
+														"tasks",
+														"uploads"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "list",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "localhost:3333/tasks",
+													"host": [
+														"localhost"
+													],
+													"port": "3333",
+													"path": [
+														"tasks"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Atualizar",
+											"request": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"title\": \"Outro teste\",\r\n    \"description\": \"outro teste@hotmail.com\",\r\n    \"completed_at\": true\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "localhost:3333/tasks/:id",
+													"host": [
+														"localhost"
+													],
+													"port": "3333",
+													"path": [
+														"tasks",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "b698c17e-ac4e-4ec4-b6b3-254fd924d059"
+														}
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Atualizar Copy",
+											"request": {
+												"method": "PATCH",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"completed_at\": true\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "localhost:3333/tasks/:id",
+													"host": [
+														"localhost"
+													],
+													"port": "3333",
+													"path": [
+														"tasks",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "ae91e2bb-e03f-4c6d-a8a4-85eb8bebc6ab"
+														}
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Delete",
+											"request": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "localhost:3333/tasks/:id",
+													"host": [
+														"localhost"
+													],
+													"port": "3333",
+													"path": [
+														"tasks",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "53ddaa6a-44c2-4412-98d6-0d6474c11d2b"
+														}
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
