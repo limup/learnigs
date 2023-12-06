@@ -7,16 +7,18 @@ const server = http.createServer(async (req, res) => {
 
   await json(req, res);
 
-  let route = findRoutePath(method, url);
+  let route = findRoutePath(method, url)
+  console.log('route')
+  console.log(route)
 
   if (route) {
-    const routeParams = url.match(route.path);
-    const routeUpload = url.match(route.subpath);
+    const routeParams = url.match(route.path)
+    const routeUpload = url.match(route.subpath)
 
-    req.upload = routeUpload ?? null;
-    req.params = { ...routeParams.groups };
+    req.upload = routeUpload ?? null
+    req.params = { ...routeParams.groups }
 
-    if (route.path) return await route.handler(req, res);
+    if (route.path) return await route.handler(req, res)
   }
 
   return res.writeHead(404).end();

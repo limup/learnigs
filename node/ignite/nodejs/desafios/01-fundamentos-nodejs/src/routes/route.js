@@ -11,6 +11,9 @@ export const routes = [
     method: "POST",
     path: buildRoutePath("/tasks"),
     handler: (req, res) => {
+
+      console.log('caiu aqui')
+
       const { title, description } = req.body;
 
       if (!title)
