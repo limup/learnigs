@@ -1,24 +1,25 @@
-import http from 'node:http'
-import { routes } from '../routes/route.js'
-import { json } from '../middlewares/json.js'
+import http from "node:http";
+import { json } from "./middlewares/json.js";
+import { findRoutePath } from "./utils/find-route-sub-path.js";
 
 const server = http.createServer(async (req, res) => {
-    const { method, url } = req
+  const { method, url } = req;
 
-     await json(req, res)
+  await json(req, res);
 
-    const route = routes.find(route => {
-        return route.method == method && route.path.test(url)
-    })
+  let route = findRoutePath(method, url);
 
-    if (route) {
-        const routeParams = url.match(route.path)
+  if (route) {
+    const routeParams = url.match(route.path);
+    const routeUpload = url.match(route.subpath);
 
-        req.params = { ...routeParams.groups };
-        return route.handler(req, res)
-    }
+    req.upload = routeUpload ?? null;
+    req.params = { ...routeParams.groups };
 
-    return res.writeHead(200).end('Server up!')
-})
+    if (route.path) return await route.handler(req, res);
+  }
 
-server.listen(3333)
+  return res.writeHead(404).end();
+});
+
+server.listen(3333);
