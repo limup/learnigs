@@ -1,0 +1,10 @@
+npm --init -y
+npm i typescript
+npx tsc init 
+npm i -D @types/node
+npm i tsx -D
+npx tsx watch src/server.ts
+npm i eslint @rocketseat/eslint-config -D
+npx eslint src --ext .ts --fix
+npm install knex --save
+npm i knex sqlite3
