@@ -8,3 +8,5 @@ npm i eslint @rocketseat/eslint-config -D
 npx eslint src --ext .ts --fix
 npm install knex --save
 npm i knex sqlite3
+npx knex migrate:make create-documents
+npm run migrate:create create-documents
