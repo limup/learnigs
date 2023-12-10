@@ -2,7 +2,7 @@
   "name": "02-api-rest-fastfy",
   "version": "1.0.0",
   "engines": {
-    "node": "20.10.0"
+    "node": ">= 20.10.0"
   },
   "description": "",
   "main": "index.js",
