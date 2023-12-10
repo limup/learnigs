@@ -1,0 +1,85 @@
+{
+    "openapi": "3.0.1",
+    "info": { 
+        "version": "1.0.0",
+        "title": "Swagger node/express",
+        "description": "Documentação do node/express"
+    },
+    "servers":[
+        {
+            "url": "http://localhost:3333/",
+            "description": "Ambiente de desenvolvimento"
+        },
+        {
+            "url": "https://homol.meudominio.com/",
+            "description": "Ambiente de homologação"
+        },
+        {
+            "url": "https://meudominio.com/",
+            "description": "Ambiente de produção"
+        }
+    ],
+    "paths": {
+        "/item": {
+            "post": {
+                "summary": "Cria um novo itema",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string",
+                                        "example": "Prensa francesa"
+                                    },
+                                    "price": {
+                                        "type": "number",
+                                        "example": 123.45
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }, 
+                "responses": {
+                    "201": {
+                        "description": "Item criado com sucesso"
+                    },
+                    "400": {
+                        "description": "Parâmetros informados estão incorretos"
+                    }
+                }
+            }
+        },
+        "/item/{id}": {
+            "get": {
+                "summary": "Busca item por id",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "type": "integer",
+                        "example": 1645477708708
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Item retornado com sucesso"
+                    },
+                    "404": {
+                        "description": "Id inválido ou inexistente"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas":{
+            "Price":{
+                "type": "number",
+                "example": 123.45
+            }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+node_modules
+
+**/*.lock
+
+swagger-output.json
