@@ -1,5 +1,5 @@
 import { fastify } from 'fastify'
-import { knex } from './database1'
+import { knex } from './database'
 
 const app = fastify()
 

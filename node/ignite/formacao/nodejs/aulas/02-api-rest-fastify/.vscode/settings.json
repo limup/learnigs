@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "02-api-rest-fastify",
+            "database": "${workspaceFolder:02-api-rest-fastify}/src/db/app.db"
+        }
+    ]
+}

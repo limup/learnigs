@@ -1,12 +1,64 @@
+//Ininializa o project npm
 npm --init -y
+
+//Instala o typescript no projeto
 npm i typescript
+
+//Inicializa o typescript no projeto
 npx tsc init 
+
+//Instala as dependencias do typescript no node no projeto em ambiente de desenvolmento
 npm i -D @types/node
+
+//Instala a CLI do typescript no projeto em desenvolvimento
 npm i tsx -D
+
+// Executa o script configurado no NPM para subir o projeto
+npm run dev
+
+//Executa o projeto na cli do NPM e dps da CLI do typescript em modo watch
 npx tsx watch src/server.ts
+
+//Instala o eslint com as configurações do rocketseat em desenvolvimento - eslint é a convenção e/ou padrão de projeto que temos que seguir
 npm i eslint @rocketseat/eslint-config -D
+
+//Executa o eslint com a saída .ts e arrumando todas as convenções
 npx eslint src --ext .ts --fix
+
+//Instala o knex - É um querybuilders
 npm install knex --save
+
+//Instala o knex e o sqlite3
 npm i knex sqlite3
+
+//Executa o migration do knex em NPM 
 npx knex migrate:make create-documents
+
+//Executa o script configurado no NPM para migration
 npm run migrate:create create-documents
+
+//Executa o scrpit configurado no NPM para atualizar a migrate
+npm run knex -- migrate:latest
+
+//Limpa as migrations atualizadas
+npm run knex -- migrate:rollback
+
+//Instalar o dotenv para poder ler as variáveis de ambientes
+npm i dotenv
+
+//Biblioteca que valida os dados como o env, criação de usuários etc por exemplo.
+npm i zod
+
+// Pacotes do fastify para armazenar cookies
+npm i @fastifay/cookie
+
+// Framework de teste
+npm i -D vitest
+
+//Executa o teste
+npx vitest
+
+
+supertest -D
+
+npm i -D @types/supertest
