@@ -58,7 +58,11 @@ npm i -D vitest
 //Executa o teste
 npx vitest
 
-
+// Ferramenta para fazer requisiçõesem ambientes de testes
 supertest -D
 
+// Framework para o typescript fazer a leitura
 npm i -D @types/supertest
+
+// Ferramenta de deploy
+npm i tsup -D

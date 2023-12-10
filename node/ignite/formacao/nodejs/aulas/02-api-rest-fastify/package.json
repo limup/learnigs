@@ -11,6 +11,7 @@
     "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
     "migrate:create": "npm run knex -- migrate:make -x ts",
     "lint": "eslint src --ext .ts --fix",
+    "build": "tsup src --out-dir deploy",
     "test": "npx vitest"
   },
   "keywords": [],
@@ -30,6 +31,7 @@
     "@types/supertest": "^2.0.16",
     "eslint": "^8.55.0",
     "supertest": "^6.3.3",
+    "tsup": "^8.0.1",
     "tsx": "^4.6.2",
     "typescript": "^5.3.3",
     "vitest": "^1.0.4"

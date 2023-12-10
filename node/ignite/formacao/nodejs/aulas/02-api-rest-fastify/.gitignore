@@ -1,4 +1,12 @@
+# Dependencies
 node_modules
-./src/db/app.db
+
+# Databases
+src/db/*.sqlite
+
+# Enviroments
 .env
 .env.test
+
+# Build
+deploy
