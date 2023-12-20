@@ -1,0 +1,8 @@
+- Instal a new project
+  - npm create vite@latest
+
+- Install all dependencies
+  - npm i
+
+- Run localhost
+  - npm run dev
