@@ -6,3 +6,6 @@
 
 - Run localhost
   - npm run dev
+
+- Install lib icons
+  - npm i phosphor-react
