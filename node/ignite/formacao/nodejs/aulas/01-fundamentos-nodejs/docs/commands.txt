@@ -1,0 +1,2 @@
+//Ininializa o project npm
+npm --init -y
