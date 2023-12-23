@@ -1,0 +1,17 @@
+-- Install Angula/CLI
+npm install -g @angular/cli
+
+-- Check version
+ng version
+
+-- Install a new project my-first-app. CSS/No enable SSR
+ng new my-first-app --no-strict --standalone false --routing false
+
+-- Server the project
+ng serve
+
+-- Install lib bootstrap
+npm install --save bootstrap@3
+
+-- Generata component via CLI
+ng g c servers
