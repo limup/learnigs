@@ -1,3 +1,45 @@
+<label for="serverName">Server Name</label>
+
+<!-- Não se usa mais dessa forma em forms -->
+<!-- <input
+  id="serverName"
+  type="text"
+  class="form-control"
+  (input)="onUpdateServerName($event)"
+/> -->
+
+<!-- Preferivel usar desta forma, pois é usado o two-way-databind em forms-->
+<input
+  id="serverName"
+  type="text"
+  class="form-control"
+  [(ngModel)]="serverName"
+/>
+
+<p>{{ serverName }}</p>
+
+<button
+  class="btn btn-primary"
+  [disabled]="!allowNewServer"
+>
+  Add Server
+</button>
+
+<button
+  class="btn btn-primary"
+  [disabled]="!allowNewServer"
+  (click)="onCreateServer()"
+>
+  Add Server with Event
+</button>
+
+
+<p>{{ allowNewServer }} - Use desta forma somente para imprimir resultados</p>
+<p>ou (Veja o código)</p>
+<p [innerText]="allowNewServer"></p> - Use desta forma quando quiser mudar diretrizes, componentes, buttons etc
+
+<p class="label label-info">{{ serverCreationStatus }}</p>
+
 <app-server></app-server>
 <app-server></app-server>
 <app-server></app-server>
