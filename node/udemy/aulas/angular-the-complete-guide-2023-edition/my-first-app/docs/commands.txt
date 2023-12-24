@@ -10,8 +10,9 @@ ng new my-first-app --no-strict --standalone false --routing false
 -- Server the project
 ng serve
 
--- Install lib bootstrap
-npm install --save bootstrap@3
+-- Install lib bootstrap in angular
+-- Doc: https://www.npmjs.com/package/ngx-bootstrap?activeTab=readme
+npm install ngx-bootstrap bootstrap --save
 
 -- Generata component via CLI
 ng g c servers
