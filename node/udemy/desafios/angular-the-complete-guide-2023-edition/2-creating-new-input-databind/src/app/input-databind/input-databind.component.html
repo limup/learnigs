@@ -1,0 +1,42 @@
+<div class="h3">
+  Desafio
+  <small class="text-body-secondary">
+    Tarefa 2
+  </small>
+</div>
+<h1>
+  <div class="display-6">
+    Two-way-databind
+  </div>
+</h1>
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">&#64;</span>
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Username"
+    aria-label="Username"
+    aria-describedby="basic-addon1"
+    (input)="isInputEmpty()"
+
+    [(ngModel)]="inputName"
+  >
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <span>
+      Result directive: {{ inputName }} {{ buttonResultSign }}
+    </span>
+  </div>
+  <div class="col-md-6">
+    <button
+      type="button"
+      class="btn btn-primary"
+      (click)="setSignin()"
+      [disabled]="buttonNameIsEmpty"
+    >
+      Cadastrar
+    </button>
+  </div>
+</div>

@@ -10,9 +10,15 @@ ng new my-first-app --no-strict --standalone false --routing false
 -- Server the project
 ng serve
 
+--Bootstrap precisa ter o jquery
+npm install jquery --save
+
 -- Install lib bootstrap in angular
 -- Doc: https://www.npmjs.com/package/ngx-bootstrap?activeTab=readme
 npm install ngx-bootstrap bootstrap --save
+
+-- Or right angular
+ng add ngx-bootstrap
 
 -- Generata component via CLI
 ng g c servers
