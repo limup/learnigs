@@ -16,6 +16,10 @@ export class InputDatabindComponent {
 
   setSignin(){
     this.inputName += ' is allright sign on!'
+
+    setTimeout(() =>{
+      this.inputName = ''
+    },2000)
   }
 
   isInputEmpty(){

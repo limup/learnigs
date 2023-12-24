@@ -1,45 +1,70 @@
-<label for="serverName">Server Name</label>
+<div class="row">
+  <div class="col-md-12">
+    <label for="serverName">Server Name</label>
 
-<!-- Não se usa mais dessa forma em forms -->
-<!-- <input
-  id="serverName"
-  type="text"
-  class="form-control"
-  (input)="onUpdateServerName($event)"
-/> -->
+    <!-- Não se usa mais dessa forma em forms -->
+    <!-- <input
+      id="serverName"
+      type="text"
+      class="form-control"
+      (input)="onUpdateServerName($event)"
+    /> -->
 
-<!-- Preferivel usar desta forma, pois é usado o two-way-databind em forms-->
-<input
-  id="serverName"
-  type="text"
-  class="form-control"
-  [(ngModel)]="serverName"
-/>
+    <!-- Preferivel usar desta forma, pois é usado o two-way-databind em forms-->
+    <input
+      id="serverName"
+      type="text"
+      class="form-control"
+      [(ngModel)]="serverName"
+    />
+  </div>
+  <div class="col-md-12">
+    <p>Result is: {{ serverName }}</p>
+  </div>
+</div>
 
-<p>{{ serverName }}</p>
+<div class="row">
+  <div class="col-md-4">
+    <button
+      class="btn btn-primary"
+      [disabled]="!allowNewServer"
+    >
+      Add Server Timeout
+    </button>
+  </div>
+  <div class="col-md-4">
+    <div class="row">
+      <div class="col-md-12">
+        <button
+          class="btn btn-primary"
+          [disabled]="!allowNewServer"
+          (click)="onCreateServer()"
+        >
+          Add Server with Event
+        </button>
+      </div>
+      <div class="col-md-12">
+        <p class="label label-info me-5">
+          {{ serverCreationStatus }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <small>Use desta forma somente para imprimir resultados</small>
+    <p>Timeout: {{ allowNewServer }}</p>
 
-<button
-  class="btn btn-primary"
-  [disabled]="!allowNewServer"
->
-  Add Server
-</button>
-
-<button
-  class="btn btn-primary"
-  [disabled]="!allowNewServer"
-  (click)="onCreateServer()"
->
-  Add Server with Event
-</button>
+    <br/>
+    <small>Use desta forma quando quiser mudar diretrizes, componentes, buttons etc</small>
+    <br/>
+    <span>
+      Timeout:
+      <p [innerText]="allowNewServer"></p>
+    </span>
+  </div>
+</div>
 
 
-<p>{{ allowNewServer }} - Use desta forma somente para imprimir resultados</p>
-<p>ou (Veja o código)</p>
-<p [innerText]="allowNewServer"></p> - Use desta forma quando quiser mudar diretrizes, componentes, buttons etc
 
-<p class="label label-info">{{ serverCreationStatus }}</p>
 
-<app-server></app-server>
-<app-server></app-server>
 <app-server></app-server>
