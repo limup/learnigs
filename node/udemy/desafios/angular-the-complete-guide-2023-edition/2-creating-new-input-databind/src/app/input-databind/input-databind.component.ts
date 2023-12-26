@@ -19,6 +19,7 @@ export class InputDatabindComponent {
 
     setTimeout(() =>{
       this.inputName = ''
+      this.buttonNameIsEmpty = true
     },2000)
   }
 
