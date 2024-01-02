@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class ServersComponent {
   allowNewServer = false
   serverCreationStatus = 'No server was created!'
+  serverCreated = false
   serverName = ''
 
   constructor() {
@@ -17,6 +18,7 @@ export class ServersComponent {
   }
 
   onCreateServer(){
+    this.serverCreated = true
     this.serverCreationStatus = 'Server was created! Name is ' + this.serverName
   }
 
