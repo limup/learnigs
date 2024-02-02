@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  .title span {
+      white-space: nowrap;
+      /* Impede quebras de linha */
+      overflow: hidden;
+      /* Esconde o texto que excede o espaço */
+      text-overflow: ellipsis;
+      /* Adiciona reticências no final */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title span {
+      white-space: nowrap;
+      /* Impede quebras de linha */
+      overflow: hidden;
+      /* Esconde o texto que excede o espaço */
+      text-overflow: ellipsis;
+      /* Adiciona reticências no final */
+    }
+}
+
+@media (min-width: 1024px) {
+  .title span {
+      white-space: nowrap;
+      /* Impede quebras de linha */
+      overflow: hidden;
+      /* Esconde o texto que excede o espaço */
+      text-overflow: ellipsis;
+      /* Adiciona reticências no final */
+    }
+}
