@@ -5,7 +5,7 @@ npm --init -y
 npm i typescript
 
 //Inicializa o typescript no projeto
-npx tsc init 
+npx tsc --init 
 
 //Instala as dependencias do typescript no node no projeto em ambiente de desenvolmento
 npm i -D @types/node
