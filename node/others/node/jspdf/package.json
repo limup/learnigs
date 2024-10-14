@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bwip-js": "^4.4.0",
+    "jspdf": "^2.5.1"
+  },
+  "name": "jspdf",
+  "version": "1.0.0",
+  "main": "generateLabel.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
