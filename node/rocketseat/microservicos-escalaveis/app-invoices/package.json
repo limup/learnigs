@@ -1,0 +1,38 @@
+{
+  "name": "app-invoices",
+  "version": "1.0.0",
+  "description": "microservices with rabbitmq",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env --experimental-strip-types --watch --no-warnings src/http/server.ts",
+    "start": "node --experimental-strip-types --no-warnings src/http/server.ts",
+    "build": "tsc",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "amqplib": "^0.10.8",
+    "app-invoices": "file:",
+    "drizzle-orm": "^0.44.1",
+    "fastify": "^5.3.3",
+    "fastify-type-provider-zod": "^4.0.2",
+    "pg": "^8.16.0",
+    "zod": "^3.25.50"
+  },
+  "devDependencies": {
+    "@opentelemetry/auto-instrumentations-node": "^0.60.0",
+    "@opentelemetry/sdk-node": "^0.202.0",
+    "@opentelemetry/sdk-trace-node": "^2.0.1",
+    "@tsconfig/node22": "^22.0.2",
+    "@types/amqplib": "^0.10.7",
+    "@types/node": "^22.15.29",
+    "drizzle-kit": "^0.31.1",
+    "typescript": "^5.8.3"
+  }
+}
