@@ -43,11 +43,30 @@ docker-compose up -d
 docker-compose up -d
 ```
 
-## Testando a API
-Para criar um pedido:
+## Testando a API via API Gateway (Kong)
+
+Com o API Gateway (Kong) em execução, a URL de acesso à API muda. Agora, para acessar o endpoint de criação de pedidos, utilize:
 
 ```sh
-curl -X POST http://localhost:3333/orders -H "Content-Type: application/json" -d '{"amount":5000}'
+curl -X POST http://localhost:8000/orders -H "Content-Type: application/json" -d '{"amount":5000}'
 ```
+
+> O Kong encaminha a requisição para o microserviço correto conforme configurado no `config.yaml`.
+
+## API Gateway (Kong)
+
+O serviço pode ser acessado via Kong API Gateway:
+- Proxy: [http://localhost:8000](http://localhost:8000)
+- Admin GUI: [http://localhost:8002](http://localhost:8002)
+
+Consulte a documentação do Kong para detalhes de configuração de rotas.
+
+## Infraestrutura AWS
+
+Para provisionar recursos na AWS, utilize o Pulumi conforme instruções em [../infra/readme.MD](../infra/readme.MD).
+
+## Observação sobre o banco de dados
+
+O banco de dados PostgreSQL deste serviço é iniciado localmente via docker-compose próprio do diretório `app-orders`.
 
 --- 

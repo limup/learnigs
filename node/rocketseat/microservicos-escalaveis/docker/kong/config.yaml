@@ -1,0 +1,50 @@
+
+_format_version: "3.0"
+_transform: true
+
+services:
+  - name: orders
+    url: http://host.docker.internal:3333
+    protocol: http
+    host: host.docker.internal
+    port: 3333
+    path: /
+    connect_timeout: 10000
+    retries: 3
+    routes:
+      - name: api-orders
+        protocols:
+          - http
+          - https
+        paths:
+          - /orders
+
+  - name: invoices
+    url: http://host.docker.internal:3334
+    protocol: http
+    host: host.docker.internal
+    port: 3333
+    path: /
+    routes:
+      - name: api-invoices
+        protocols:
+          - http
+          - https
+        paths:
+          - /invoices
+
+plugins:
+  - name: cors
+    config:
+      origins:
+        - "*"
+      methods:
+        - GET
+        - POST
+        - PUT
+        - DELETE
+        - OPTIONS
+      headers:
+        - Accept
+        - Content-Type
+        - Authorization
